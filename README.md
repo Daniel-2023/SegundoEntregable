@@ -105,6 +105,11 @@ src/
 **Busqueda dentro de especie**  El buscador solo actua dentro de la especie seleccionada
 **Responsive**  Adaptado para movil, tablet y escritorio
 
+## Modulos
+Home: En este modulo encuentra un infornacion descriptiva sobre que es Rick and Morty
+Characters: En este modulo, muestra todos los pesonages en boque de 20 (por eso inicialmen dici que existe "20 personajes encontrados", pero esa cantida pertenece a la pagina no a la cantidad total) personages por pagina, para cmbia de pagina, existen dosbotones en la parte inferior que permitiran desplazarte y ver los personajes de las diferentes paginas.
+Filter: Es un modulo que ofrece 5 botenes (human, humanoid, robot, Mythologic, Alien), que permitira filtrar los personajes por su tipo de especie, el cual mostrar en bloque de 20 porsonajes.
+Busqueda: Este modulo es implementado tando el Filter como en Characters para realizar la busque de personajes por su nombre, lo que hacer es tomar las letras y los compara las letra iniciales de los nombres de los personajes, y en caso de no coincidir exactemen con un nombre, mostra los personaje qeu conincide inicialmente en su nombre con el termino de busqueda, pero existe diferencia en el buscador de Filte y de Characters, en Filte, solo busca los nombres en los pesonajes de la especie seleccionada y en Characters, buscar en todos los personajes independientemente de su tipo de especie.
 ---
 
 ##  Scripts disponibles
