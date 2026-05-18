@@ -1,0 +1,71 @@
+.filterSpecies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.filterSpeciesByTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+#text1{
+  color: aliceblue;
+}
+h2{
+    color: azure;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #00b894;
+  transform: scale(1.05);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+
+.active-filter {
+  background-color: #dd7215 !important;
+}
+
+.speciess {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 3;
+    transform: translateY(0);
+  }
+}

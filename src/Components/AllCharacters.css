@@ -1,0 +1,42 @@
+.allCharacters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  animation: fadeIn 0.8s ease;
+}
+
+.cuenta {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:azure;
+}
+#text{
+  color: antiquewhite;
+}
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1900px;
+}
+
+.estadoCharacters {
+  color: blue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
